@@ -58,6 +58,9 @@ export default {
           lineItems: this.lineItems,
           locale: this.$coerced.locale,
           mode: this.mode,
+          automatic_tax: {
+            enabled: true,
+          },
           shippingAddressCollection: this.shippingAddressCollection,
           submitType: this.submitType,
           successUrl: this.successUrl,
